@@ -1,0 +1,24 @@
+li,
+button {
+  color: var(--main-text-color);
+  border: none;
+  display: block;
+  padding: 0.2rem;
+  margin: 1rem 0;
+  font-size: 2rem;
+  border-radius: 5rem;
+  cursor: pointer;
+  background: var(--main-dark-blue-color);
+  width: 25rem;
+}
+
+div.navbar {
+  display: flex;
+  width: 100%;
+  margin-left: 2.2rem;
+}
+
+ul {
+  margin-block-start: 0px;
+  list-style: none;
+}

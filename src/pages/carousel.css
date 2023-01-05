@@ -1,0 +1,10 @@
+h5 {
+  color: var(--main-text-color);
+  font-size: 2rem;
+}
+
+h6 {
+  font-size: 1.2rem;
+  margin-top: 0.7rem;
+  margin-bottom: -2rem;
+}

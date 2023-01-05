@@ -1,0 +1,166 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-left: 4rem;
+}
+
+.about,
+.about > h1 {
+  position: fixed;
+}
+
+[class^="row-"] {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+
+[class^="col-"] {
+  display: flex;
+  margin: 10px 50px;
+  width: 30%;
+  object-fit: cover;
+}
+.about > h1 {
+  margin-top: -40rem;
+  padding-left: 0px;
+}
+
+.activity {
+  width: 30rem;
+  height: auto;
+}
+
+/*Tucker additional Info*/
+.tuckerText {
+  position: fixed;
+  width: 15.8%;
+  margin-top: 24rem;
+  transition: 0.5s ease;
+  text-align: center;
+  opacity: 1%;
+}
+
+.tuckerText > .text > h5 {
+  display: flex;
+  margin-right: -1rem;
+}
+
+.tuckerText > .text {
+  color: white;
+  display: flex;
+  margin-left: -3rem;
+  justify-content: center;
+}
+
+/*Tucker hover specifics*/
+.row-1 > .col-2:hover img {
+  transition: 0.5s ease;
+  opacity: 0.3;
+  backface-visibility: hidden;
+}
+
+.row-1 > .col-2:hover .tuckerText {
+  opacity: 1;
+  transition: 0.5s ease;
+}
+
+/*Gorge image additional info*/
+.gorgeText {
+  position: fixed;
+  width: 15.8%;
+  margin-top: 24rem;
+  transition: 0.5s ease;
+  text-align: center;
+  opacity: 1%;
+}
+
+.gorgeText > .text > h5 {
+  display: flex;
+  margin-right: -1rem;
+}
+
+.gorgeText > .text {
+  color: white;
+  display: flex;
+  margin-left: -3rem;
+  justify-content: center;
+}
+
+/*Gorge hover specifics*/
+.row-1 > .col-1:hover img {
+  transition: 0.5s ease;
+  opacity: 0.3;
+  backface-visibility: hidden;
+}
+
+.row-1 > .col-1:hover .gorgeText {
+  opacity: 1;
+  transition: 0.5s ease;
+}
+
+/*Whiskey additional Info*/
+.whiskeyText {
+  position: fixed;
+  width: 15.8%;
+  margin-top: 24rem;
+  transition: 0.5s ease;
+  text-align: center;
+  opacity: 1%;
+}
+
+.whiskeyText > .text > h5 {
+  display: flex;
+  justify-content: center;
+  margin-top: -19rem;
+  margin-left: 3rem;
+  margin-right: -3rem;
+}
+
+.whiskeyText > .text {
+  color: white;
+  display: flex;
+  margin-left: -3rem;
+  justify-content: center;
+}
+
+/*Whiskey hover specifics*/
+.row-2 > .col-1:hover img {
+  transition: 0.5s ease;
+  opacity: 0.3;
+  backface-visibility: hidden;
+}
+
+.row-2 > .col-1:hover .whiskeyText {
+  opacity: 1;
+  transition: 0.5s ease;
+}
+
+/*Image formatting*/
+.about > .container > .row-1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tucker,
+.gorge {
+  margin-top: 12rem;
+  width: 26rem;
+}
+
+.about > .container > .row-2 {
+  margin-top: -12rem;
+}
+
+.about > .container > .row-2 > .col-1 {
+  overflow: hidden;
+  margin-left: 9rem;
+}
+
+.about > .container > .row-1 > .col-2 {
+  margin-left: 56rem;
+}

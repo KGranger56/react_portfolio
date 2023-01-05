@@ -1,0 +1,12 @@
+.portfolio > container {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  width: 65%;
+  margin-top: 12rem;
+}
+
+.portfolio > h1 {
+  position: fixed;
+  margin-top: -48rem;
+}
