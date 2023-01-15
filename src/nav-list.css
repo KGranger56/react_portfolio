@@ -1,8 +1,8 @@
 .all-page-info {
   position: fixed;
-  top: 13rem;
-  left: 2rem;
-  bottom: 13rem;
+  top: 0rem;
+  left: 0rem;
+  bottom: 0rem;
   z-index: 1000;
   width: 35rem;
   display: flex;
@@ -23,12 +23,6 @@
   border: 2px solid var(--main-action-color);
 }
 
-.my-picture,
-.name,
-.title {
-  margin-left: 4rem;
-}
-
 h1 {
   color: var(--main-action-color);
   margin-top: -28rem;
@@ -43,6 +37,7 @@ h4 {
 .all-page-info,
 ul.navList {
   background-color: var(--main-div-background-color);
+  padding-inline-start: 0rem;
 }
 
 .name,
@@ -52,10 +47,10 @@ ul.navList {
 
 div > .page {
   position: fixed;
-  top: 13rem;
+  top: 0rem;
   left: 35rem;
-  right: 2rem;
-  bottom: 13rem;
+  right: 0rem;
+  bottom: 0rem;
   cursor: pointer;
   font-size: 1.5rem;
   padding: 1rem 1.5rem;
@@ -66,6 +61,7 @@ div > .page {
   justify-content: center;
   text-align: center;
   background-color: var(--main-div-background-color);
+  padding-right: 5rem;
 }
 
 p {

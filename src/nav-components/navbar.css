@@ -22,3 +22,32 @@ ul {
   margin-block-start: 0px;
   list-style: none;
 }
+
+.footer {
+  display: flex;
+  position: fixed;
+}
+
+.media {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-around;
+  background-color: var(--main-div-background-color);
+}
+
+.fa-facebook {
+  color: #2d88ff;
+}
+
+.fa-linkedin {
+  color: #0a66c2;
+}
+
+.fa-github {
+  color: rgb(240 246 252 / 70%);
+}
+
+.social {
+  background: none;
+}

@@ -11,10 +11,13 @@ const Home = () => {
         I'm glad you are here.
       </h3>
       <div className="content">
-        <p className="one">
-          I have been been the student on many occassions and have enjoyed the
-          opportunities to enhance my skills or the chance to move into new opportunities.
-        </p>
+        <div className="first">
+          <p className="one">
+            I have been been the student on many occassions and have enjoyed the
+            opportunities to enhance my skills or the chance to move into new
+            opportunities.
+          </p>
+        </div>
         <div className="second">
           <p className="two">
             <br />I am a motivated and organized individual. I work well with a team, but

@@ -5,7 +5,6 @@ import "./nav-list.css";
 import Navbar from "./nav-components/navbar";
 import About from "./pages/about";
 import Contact from "./pages/contact";
-import Education from "./pages/education";
 import Home from "./pages/home";
 import Portfolio from "./pages/portfolio";
 
@@ -29,7 +28,6 @@ function NavList() {
             <Routes>
               <Route path="/home" element={<Home />} exact />
               <Route path="/about" element={<About />} />
-              <Route path="/education" element={<Education />} />
               <Route path="/portfolio" element={<Portfolio />} />
               <Route path="/contact" element={<Contact />} />
             </Routes>
