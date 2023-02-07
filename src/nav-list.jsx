@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
 
 import "./nav-list.css";
 import Navbar from "./nav-components/navbar";
@@ -27,6 +27,7 @@ function NavList() {
             <Navbar />
             <Routes>
               <Route path="/home" element={<Home />} exact />
+              <Route path="/" element={<Navigate to="/home" replace={true}/>} />
               <Route path="/about" element={<About />} />
               <Route path="/portfolio" element={<Portfolio />} />
               <Route path="/contact" element={<Contact />} />
