@@ -13,7 +13,7 @@
   padding-top: 1rem;
   font-size: 3rem;
   color: black;
-  text-shadow: .3rem .3rem  var(--main-dark-blue-color);
+  text-shadow: .1rem .1rem  var(--main-dark-blue-color);
 }
 
 .home > .content {

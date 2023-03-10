@@ -1,15 +1,31 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.name {
+  font-size: 3.5rem;
+}
+
+.title {
+  font-size: 2.5rem;
+}
+
 li,
 button {
   color: var(--main-text-color);
   border: none;
   display: block;
-  padding: 0.2rem;
+  padding: 0rem;
   margin: 1rem 0;
   font-size: 2rem;
   border-radius: 5rem;
   cursor: pointer;
-  background: var(--main-dark-blue-color);
+  background-image: linear-gradient(var(--main-dark-blue-color),var(--main-action-color),var(--main-dark-blue-color));
   width: 25rem;
+  line-height: 4.5rem;
 }
 
 div.navbar {
@@ -33,7 +49,8 @@ ul {
   flex-direction: row;
   text-align: center;
   justify-content: space-around;
-  background-color: var(--main-div-background-color);
+  font-size: 4rem;
+  background-image: none;
 }
 
 .fa-facebook {

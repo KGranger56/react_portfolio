@@ -5,10 +5,13 @@
 
 body {
   background-image: url("./images/widescreenForest.jpeg");
+  background-attachment: fixed;
   display: flex;
+  margin-top: 90rem;
+  position: sticky;
   background-color: black;
   background-repeat: no-repeat;
   background-position: center;
-  width: 100%;
-  margin-top: 90rem;
+  width: 2560px;
+
 }

@@ -10,22 +10,3 @@ h3 {
   padding-bottom: 10px;
   color: var(--main-action-color);
 }
-
-/*.app {
-  overflow: hidden;
-  background-size: 100%;
-  margin: 0 auto;
-  padding: 0;
-  box-sizing: border-box;
-  text-decoration: none;
-  outline: none;
-  border: none;
-  transition: all 0.2s linear;
-  display: flex;
-}
-
-.body {
-  overflow-x: hidden;
-  padding-left: 35rem;
-}
-*/
