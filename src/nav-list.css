@@ -1,7 +1,11 @@
+/*.navList {
+  background-image: url("./images/messages_0\ \(2\).jpeg");
+}*/
+
 .all-page-info {
   position: fixed;
   top: 0rem;
-  left: 0rem;
+  left: 16rem;
   bottom: 0rem;
   z-index: 1000;
   width: 35rem;
@@ -36,7 +40,7 @@ h4 {
 
 .all-page-info,
 ul.navList {
-  background-color: var(--main-div-background-color);
+  /*background-color: var(--main-div-background-color);*/
   padding-inline-start: 0rem;
 }
 
@@ -47,21 +51,19 @@ ul.navList {
 
 div > .page {
   position: fixed;
-  top: 0rem;
-  left: 35rem;
-  right: 0rem;
-  bottom: 0rem;
+  top: 9rem;
+  left: 48rem;
+  right: 17rem;
+  bottom: 9rem;
   cursor: pointer;
   font-size: 1.5rem;
-  padding: 1rem 1.5rem;
   z-index: 1000;
   display: flex;
   flex-flow: column;
   align-items: center;
   justify-content: center;
   text-align: center;
-  background-color: var(--main-div-background-color);
-  padding-right: 5rem;
+  /*background-color: var(--main-div-background-color);*/
 }
 
 p {

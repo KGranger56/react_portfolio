@@ -152,7 +152,7 @@ h1 {
 /*Image formatting*/
 .about > .container > .row-1 {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .tucker,

@@ -6,19 +6,15 @@ const Home = () => {
     <div className="page home">
       <h1>Welcome</h1>
       <h3>
-        I hope to hear from you soon.
-        <br />
-        I'm glad you are here.
+        Im glad you are here.
       </h3>
       <div className="content">
-        <div className="first">
+        <div>
           <p className="one">
             I have been been the student on many occassions and have enjoyed the
             opportunities to enhance my skills or the chance to move into new
             opportunities.
           </p>
-        </div>
-        <div className="second">
           <p className="two">
             <br />I am a motivated and organized individual. I work well with a team, but
             I am fully capable and happy to work alone. Throughout my career, I have had

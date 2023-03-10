@@ -1,4 +1,14 @@
-html {
+/*html {
   height: 100%;
-  background-size: cover;
+  background-si*/
+
+
+body {
+  background-image: url("./images/widescreenForest.jpeg");
+  display: flex;
+  background-color: black;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  margin-top: 90rem;
 }
